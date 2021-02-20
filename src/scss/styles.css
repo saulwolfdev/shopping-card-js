@@ -1,0 +1,18 @@
+.Card {
+  padding: 20px;
+}
+
+.Card_Title {
+  font-size: 20px;
+}
+
+.Card_Image {
+  display: block;
+}
+
+.Card_Button {
+  width: 100%;
+  padding: 8px;
+  font-size: 12px;
+}
+/*# sourceMappingURL=styles.css.map */

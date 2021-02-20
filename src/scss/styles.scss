@@ -1,0 +1,15 @@
+
+.Card{
+  padding: 20px;
+  &_Title{
+    font-size: 20px;
+  }
+  &_Image{
+    display: block;
+  }
+  &_Button{
+    width: 100%;
+    padding:8px;
+    font-size: 12px;
+  }
+}
