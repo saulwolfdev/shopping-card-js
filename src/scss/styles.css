@@ -1,21 +1,30 @@
-.card {
+.Card {
   padding: 20px;
   width: 20%;
   background-color: aqua;
   border: 1px solid;
+  margin: 0 auto;
+  margin-bottom: 8px;
 }
 
-.card_title {
+.Card_Title {
   font-size: 20px;
 }
 
-.card_image {
+.Card_Image {
   display: block;
 }
 
-.card_button {
+.Card_Price {
+  font-size: 16px;
+}
+
+.Card_Button {
   width: 100%;
   padding: 8px;
-  font-size: 12px;
+  font-size: 16px;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
 }
 /*# sourceMappingURL=styles.css.map */

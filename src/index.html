@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,26 +8,42 @@
   <title>shopping-card</title>
   <link rel="stylesheet" href="./scss/styles.css">
 </head>
+
 <body>
   <header>
     <nav>
-       <div>navegacion</div>
-       <div class="Shopping_Card">
-          <div class="Shopping_Card_List"></div>
-            <button class="Shopping_Button">clear</button>
-       </div>
-     
+      <div>navegacion</div>
+      <div class="Shopping_Card">
+        <div class="Shopping_Card_List"></div>
+        <button class="Shopping_Button">clear</button>
+      </div>
+
     </nav>
   </header>
   <main>
-    <section>
+    <section id="Contanier_Cards">
       <div class="Card">
-        <img src="" alt="" class="Card_Image">
-        <h1 class="Card_Title">title</h1>
-        <button class="Card_Button">comprar</button>
+        <img src="./img/1.jpg" alt="" class="Card_Image">
+        <h1 class="Card_Title">title 1</h1>
+        <p class="Card_Price">$100</p>
+        <a class="Card_Button" data-id="1">comprar</a>
       </div>
+        <div class="Card">
+          <img src="./img/2.jpg" alt="" class="Card_Image">
+          <h1 class="Card_Title">title 2</h1>
+          <p class="Card_Price">$100</p>
+          <a class="Card_Button" data-id="2">comprar 2</a>
+        </div>
+        <div class="Card">
+          <img src="./img/3.jpg" alt="" class="Card_Image">
+          <h1 class="Card_Title">title 3</h1>
+          <p class="Card_Price">$100</p>
+          <a class="Card_Button" data-id="3">comprar 3</a>
+        </div>
     </section>
+    
     <script src="js/app.js"></script>
   </main>
 </body>
+
 </html>
