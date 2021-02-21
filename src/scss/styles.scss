@@ -1,13 +1,16 @@
 
-.Card{
+.card{
   padding: 20px;
-  &_Title{
+  width: 20%;
+  background-color: aqua;
+  border: 1px solid;
+  &_title{
     font-size: 20px;
   }
-  &_Image{
+  &_image{
     display: block;
   }
-  &_Button{
+  &_button{
     width: 100%;
     padding:8px;
     font-size: 12px;
